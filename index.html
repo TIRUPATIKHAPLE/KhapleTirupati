@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio_website</title>
+    <script
+      src="https://kit.fontawesome.com/8001600bc3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/logo-removebg-preview.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Experiences</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <!-- <p>App Developer.</p> -->
+          <h1>
+            Hi, I'm <span>Khaple </span> <br />
+            Tirupati.
+          </h1>
+          <!-- <h6>Web and App Developer</h6> -->
+        </div>
+        <div class="social-icons-home">
+          <a href="my facebook link">
+            <i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/tirupati-khaple-016875236/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/tirupati_jk_6699"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        
+      </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------about --------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/user.png" class="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <h6>
+              I am Tirupati Khaple, Studying in final Year civil department with an aggregate CGPA of 7.75.<br> I am familiar with the Autocad, Ravit Software and Etab software.
+          </h6>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <!-- <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p> -->
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Autocad</span><br/></li>
+                <li><span>Revit</span><br /></li>
+                <li><span>Ansys</span> <br/></li>
+                <li><span>E-Tab</span><br /></li>
+              </ul>
+            </div>
+            <!-- <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>INTHINK TECHNOLOGIES || App Developer Intern</span> <br/><br /> Working on an App</li>
+                <li><span>SIDDHATEK ENTERPRISE || App Developer Intern</span> <br /> To build screens of a Surveillance App using Flutter</li>
+                <li><span>CODEKUL PRIVATE LIMITED</span>|| Fullstack Java Developer Intern<br />Developing a service platform which acts as an interface between user and
+                  company<br/> ReactJS, CSS, and Html5 forfrontend.<br/> ReactJS, CSS, and Html5 forfrontend.</li>
+                <li><span>App Devlopment</span><br />App</li>
+              </ul>
+            </div> -->
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>MIT ACADEMY OF ENGINEERING, PUNE</span><br /><p>2020-2023 ||  CGPA:7.75</p><p>Pursuing Bachelor in Technology Degree in Civil Engineering.</p></li>
+                <li><span>Sau. Venutai Chavan Polytechnic, Pune.</span><p>2017-2020 </p>
+                <li><span>Lal Bahadur Shastri Vidhyalaya Udgir, Latur</span><p>2016-2017 ||  Percentage: 87%</p>Secondary School with SSC board</li>          
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------Experiences---------------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Experiences</h1>
+        <div class="services-list">
+          <div>
+            <!-- <i class="fa-solid fa-mobile"></i> -->
+            <!-- <i class="fa-solid fa-crop"></i> -->
+            <h2>Krishn-Kunj Recidency Pune</h2>
+            <span>Summer Intern.</span>
+              <br/>2018-2019
+              <ul><li><p>Pune, Maharashtra ,India.</p> </li></ul>
+            
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <!-- <i class="fa-solid fa-mobile"></i> -->
+            <!-- <i class="fa-solid fa-crop"></i> -->
+            <h2>www.elearnmarket.com</h2>
+            <span>Online Internship on Advance Excel</span>
+              <br/>2020 - 2021
+              <ul><li><p>Learned Excel basic to advance.</p> </li></ul>
+            
+            
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <!-- <i class="fa-solid fa-webhook"></i> -->
+            <!-- <i class="fa-solid fa-browser"></i> -->
+            <!-- <i class="fa-solid fa-crop"></i> -->
+            <h2>Government  of India</h2>
+            <span>Survey of India.</span>
+              <br/>2021 - 2022
+              <ul><li><p><ul><li><p>Worked under central government if India.r</p> </li></ul></p> </li></ul>
+              <!-- <ul><li><p>ReactJS, CSS, and Html5 forfrontend.</p> </li></ul>
+              <ul><li><p>Spring Boot and Java for backend.</p> </li></ul>
+              <ul><li><p>Technology used:Java, CSS, Html5,SQL,Spring Boot</p> </li></ul> -->
+            
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------portfolio-------------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="icon">
+            
+      
+                  <h2>Calculation of Carbon Footprint of MITAOE Campus Alandi Pune</h2><br>
+                <p>In this project we calculated the total carbon emission from our college. For that we collect the required data from our college and calculated the total
+                  carbon footprint emission.</p>
+                
+          </div>
+          
+          <div class="work">
+           
+            <h2>Impact of replacement of aggregate by scrab rubber tyre in concrete</h2><br>
+            <p>In this project we are going to use some percentage of tire rubber as a replacement of aggregate and comparing the result with original one.
+            </p>
+         
+          </div>
+          
+         
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ------------------------Contact------------------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >khapletirupati@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>7775830346</p>
+            <div class="social-icons">
+              <a href="my facebook link">
+                <i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/tirupati-khaple-016875236/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/tirupati_jk_6699"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright ©2023 Titupati. Made by  Tirupati J Khaple</p>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------- -->
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwh0esGQ9o_20yomekCz9DxTLhGEhjG7LVLqwjMc33JEktHMVffpKSlsiXCUT2zaWHR/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg")
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML =""
+          },5000)
+          form.reset()
+        })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
